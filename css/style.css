@@ -131,17 +131,17 @@ a:hover.slidesjs-stop {
   margin-right: 8%;
   line-height: 150%;
   font-family: "Gill Sans";
-  font-size: 1.4em;
+  font-size: 140%;
 }
 
 #intro h2 {
   font-family: "Gill Sans";
   text-align: center;
-  font-size: 3em;
+  font-size: 250%;
 }
 
 .support {
-  padding: 5em;
+  padding: 5%;
 }
 .container {
   margin: 0 auto
@@ -149,7 +149,7 @@ a:hover.slidesjs-stop {
 
 /* For tablets & smart phones */
 
-/*@media (max-width: 767px) {
+@media (max-width: 767px) {
   body {
     padding-left: 20px;
     padding-right: 20px;
@@ -157,31 +157,32 @@ a:hover.slidesjs-stop {
   .container {
     width: auto
   }
-}*/
+}
 
 /* For smartphones */
 
-/*@media (max-width: 480px) {
+@media (max-width: 480px) {
   .container {
     width: auto
   }
-}*/
+}
 
 /* For smaller displays like laptops */
 
-/*@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 979px) {
   .container {
     width: 724px
   }
-}*/
+}
 
 /* For larger displays */
 
-/*@media (min-width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     width: 1170px
   }
-}*/
+}
+
 .fa .fa-camera-retro {
   font-size: 5em;
   padding-top: 5em;
