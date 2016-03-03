@@ -17,6 +17,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/style5.css" />
+  <script type="text/javascript" src="js/modernizr.custom.69142.js"></script>
+  <script type="text/javascript">
+
+    Modernizr.load({
+      test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+      yep : ['http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js','js/jquery.hoverfold.js'],
+      nope: 'css/fallback.css',
+      callback : function( url, result, key ) {
+
+        if( url === 'js/jquery.hoverfold.js' ) {
+          $( '#grid' ).hoverfold();
+        }
+
+      }
+    });
+
+  </script>
+
 
 </head>
 
@@ -38,10 +58,10 @@
     <div class="collapse navbar-collapse">
 
       <ul class="nav navbar-nav" id="navtitles">
-        <li id="logo"><a href="index.html">Sarah Hamilton Photography</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="prices.html">Prices & Packages</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li id="logo"><a href="#/">Sarah Hamilton Photography</a></li>
+        <li><a href="#/portfolio">Portfolio</a></li>
+        <li><a href="#/prices">Prices & Packages</a></li>
+        <li><a href="#/contact">Contact</a></li>
 
       </ul>
 
