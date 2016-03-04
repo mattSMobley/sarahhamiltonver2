@@ -48,19 +48,18 @@ $(document).ready(function() {
 10);
 });
 
-$(document).ready(function() {
+
 $('#phoneDiv').one('click', function() {
   $('.fa-phone').remove();
   var phone = $('<div class="fade-in" style="padding-top: 6.5em;"><span class="replaceDiv">Call 1-555-sarah-img to book a session!</span></div>');
   $('#phone').append(phone);
 });
 
-});
 
-$(document).ready(function() {
+
+
 $('#emailDiv').one('click', function() {
   var email = $('<div class="fade-in" style="padding-top: 11em;"><span class="replaceDiv"><a href="mailto:sarah@sarahhamiltonphotography.com?Subject=Hey%20Sarah!" target="_top">Send Me An Email!</a></span></div>');
   $('#emailDiv').append(email);
   $('#email').remove();
-});
 });
